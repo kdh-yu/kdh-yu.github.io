@@ -1,45 +1,38 @@
-@media print
-   {
-    @page {
-        size: A4;
-    }
-    body {
-       font-size: 12pt;
-    }
+@media print {
+  @page {
+    size: A4;
+  }
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
+  body {
+    font-size: 12pt !important;
+    background: $wrapper-color !important;
+  }
 
-    .remove-container.container-block {
-       display: none;
-    }
+  a::after {
+    content: none !important;
+  }
 
-    footer {
-       display: none;
-    }
+  h1, h2, h3, h4, h5, h6, img {
+    break-after: avoid !important;
+    break-inside: avoid !important;
+  }
 
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
+  ul, ol {
+    break-before: avoid !important;
+  }
 
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
+  a, blockquote, pre {
+    break-inside: avoid !important;
+  }
 
+  .wrapper {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .footer {
+    display: none !important;
+  }
 }

@@ -1,19 +1,30 @@
-{% assign languages = site.data.data.sidebar.languages %}
-{% if languages %}
-<div class="languages-container container-block">
+{%- assign language = data.language %}
+{%- if language and language.show %}
+<section class="language" style="order: {{ language.order | default: 1 }}">
+  <div class="section-title">
+    <i class="section-icon fa-solid fa-earth-americas"></i>
+    <h2>{{ language.title }}</h2>
+  </div>
 
-  <h2 class="container-block-title">
-    {{ languages.title }}
-  </h2>
+  <div class="section-content">
+    {%- if language.description.size > 0 %}
+    <div class="description markdown">
+      {{ language.description | markdownify }}
+    </div>
+    {%- endif %}
 
-  <ul class="list-unstyled interests-list">
-    {% for language in languages.info %}
-    <li>
-      {{ language.idiom }}
-      <span class="lang-desc">({{ language.level }})</span>
-    </li>
-    {% endfor %}
-  </ul>
-
-</div><!--//interests-->
-{% endif %}
+    {%- if language.items %}
+    <div class="items">
+      {%- for item in language.items %}
+      <div class="item">
+        <span>{{ item.idiom }}</span>
+        {%- if item.level %}
+        <small>[{{ item.level }}]</small>
+        {%- endif %}
+      </div>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+  </div>
+</section>
+{%- endif %}
