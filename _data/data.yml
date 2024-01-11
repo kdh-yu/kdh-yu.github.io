@@ -197,8 +197,7 @@ certificate:
       issuer: Research Course
       date: 2019
       link: 
-      description: |
-      2019 KAIST 글로벌영재교육원 연구과정 수학전산반 수료
+      description: 2019 KAIST 글로벌영재교육원 연구과정 수학전산반 수료
 
 publication:
   show: false
@@ -234,15 +233,13 @@ award:
       awarder: Grand Prize
       date: 2020
       link:
-      description: |
-      2020 대전광역시 고교-대학연계 전공체험 R&E 발표대회 은상. 사멸위기언어 보존을 위한 자연어처리 AI
+      description: 2020 대전광역시 고교-대학연계 전공체험 R&E 발표대회 은상. 사멸위기언어 보존을 위한 자연어처리 AI
 
     - name: 2020 Data Creator Camp Highschool 
       awarder: Grand Prize
       date: 2020
       link:
-      description: |
-      2020 K-ICT주관 데이터크리에이터캠프 고등부 최우수상
+      description: 2020 K-ICT주관 데이터크리에이터캠프 고등부 최우수상
         
 
 patent:
