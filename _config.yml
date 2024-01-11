@@ -23,6 +23,7 @@ description:
 open_graph:
   enable: true                        # enable open graph meta tags
   image: /assets/images/profile_.png   # open graph image path
+  favicon: /assets/images/favicon.ico
 
 # Style
 text_direction: ltr         # text direction, 'ltr' or 'rtl'
