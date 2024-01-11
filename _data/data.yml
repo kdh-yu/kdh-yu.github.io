@@ -158,16 +158,9 @@ skill:
       level: 2
 
   groups:
-    - name: Data Related Skills
+    - name:
       item:
-        - Tensorflow
-        - PyTorch
-        - Matplotlib
 
-    - name: Techniques
-      item:
-        - Statistics
-        - Physics
 
 education:
   show: true
@@ -176,19 +169,19 @@ education:
 
   items:
     - institution: Hanyang University
-      link: bme.hanyang.ac.kr
+      link: https://bme.hanyang.ac.kr/
       date: 2023.09 ~ current
       major: Minor in Biomedical Engineering
       description: |
 
     - institution: Hanyang University
-      link: hyds.hanyang.ac.kr
+      link: https://hyds.hanyang.ac.kr/
       date: 2022.03 ~ current
       major: Major in Data Science
       description: |
 
     - institution: Daejeon Daeshin Highschool
-      link: '#'
+      link: https://dshs.kr/
       date: 2019.03 ~ 2022.02
       major: DSHS 47th
       description: |
@@ -205,6 +198,7 @@ certificate:
       date: 2019
       link: 
       description: |
+      2019 KAIST 글로벌영재교육원 연구과정 수학전산반 수료
 
 publication:
   show: false
@@ -241,12 +235,14 @@ award:
       date: 2020
       link:
       description: |
+      2020 대전광역시 고교-대학연계 전공체험 R&E 발표대회 은상. 사멸위기언어 보존을 위한 자연어처리 AI
 
     - name: 2020 Data Creator Camp Highschool 
       awarder: Grand Prize
       date: 2020
       link:
       description: |
+      2020 K-ICT주관 데이터크리에이터캠프 고등부 최우수상
         
 
 patent:
