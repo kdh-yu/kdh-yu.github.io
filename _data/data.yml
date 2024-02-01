@@ -1,9 +1,9 @@
 basic:
   name: Kim Dohoon                      # name
-  title: Data Scientist           # job title
+  title: Data Science           # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile_.png # avatar file path
+    path: #/assets/images/profile_.png # avatar file path
 
 contact:
   # meta
@@ -81,17 +81,16 @@ contact:
 profile:
   show: true
   order: 1
-  title: Profile
+  title: Interests
   description: |
-    Hello, I'm Kim Dohoon. I'm majoring Data Science, and minoring Biomedical Engineering at Hanyang University. One of my interests is <mark style='border-radius: 5px; background-color: #333; color: white;'> Digital Healthcare </mark>. More specifically, I'm very interested in AI based disease diagnosis system.
+    Digital Healthcare, Bio signal processing, Medical image Processing, Medical AI
 
 experience:
   show: false
   order: 2
   title: Experiences
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
-
+    
   items:
     - company: Second Company
       link: '#'
