@@ -83,7 +83,7 @@ profile:
   order: 1
   title: Interests
   description: |
-    Digital Healthcare, Bio signal processing, Medical image Processing, Medical AI
+    Digital Healthcare, Medical image Processing, Medical AI
 
 experience:
   show: false
