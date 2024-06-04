@@ -83,36 +83,24 @@ profile:
   order: 1
   title: Interests
   description: |
+    Computer Vision, Zero-shot segmentation,  
     Digital Healthcare, Medical image Processing, Medical AI
 
 experience:
-  show: false
+  show: true
   order: 2
   title: Experiences
   description: |
     
   items:
-    - company: Second Company
+    - company: BAIK Lab
       link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+      tags: Laboratory practice of Intelligence Computing
+      date: 2024.03.-
+      role: Research Intern
+      location: Hanyang University, Seoul
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
-
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        
 
 project:
   show: true
@@ -170,7 +158,7 @@ education:
     - institution: Hanyang University
       link: https://bme.hanyang.ac.kr/
       date: 2023.09 ~ current
-      major: Minor in Biomedical Engineering
+      major: 2nd Major in Biomedical Engineering
       description: |
 
     - institution: Hanyang University
