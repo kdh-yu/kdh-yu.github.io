@@ -274,9 +274,7 @@ language:
     - idiom: Korean
       level: Native
     - idiom: English
-      level: Intermediate 
-    - description: \
-      [TOEFL ITP 546 at Hanyang University]
+      level: Intermediate - TOEFL ITP 546 at HYU
 
 interest:
   show: false
