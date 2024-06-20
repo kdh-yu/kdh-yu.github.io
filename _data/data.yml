@@ -1,6 +1,6 @@
 basic:
   name: Kim Dohoon                      # name
-  title: Data Science           # job title
+  title: Data Scientist           # job title
   avatar:
     show: false                       # show or hide avatar
     path: /assets/images/profile_.png # avatar file path
@@ -83,8 +83,8 @@ profile:
   order: 1
   title: Interests
   description: |
-    Computer Vision, Zero-shot segmentation,  
-    Digital Healthcare, Medical image Processing, Medical AI
+    Computer Vision, Zero-shot task, Image segmentation,  
+    Medical image Processing, Medical AI, Multimodal
 
 experience:
   show: true
@@ -94,7 +94,7 @@ experience:
     
   items:
     - company: BAIK Lab
-      link: '#'
+      link: 'https://dsybaik.notion.site/BAIK-Lab-45a687d16c64467d98d41c75573856bb'
       tags: Laboratory practice of Intelligence Computing
       date: 2024.03.-
       role: Research Intern
@@ -107,6 +107,12 @@ project:
   order: 3
   title: Projects
   description: |
+
+  items:
+    - name: Depression detection by ERC
+      date: 2024 1st semester
+      description: \
+        Project at Artificial Intelligence class
 
   items:
     - name: Simplified Lung Cancer Predicting System
@@ -268,13 +274,14 @@ language:
   show: true
   order: 11
   title: Languages
-  description: |
+  description: |  
+    TOEFL ITP 546/677 at HYU
 
   items:
     - idiom: Korean
       level: Native
     - idiom: English
-      level: Intermediate - TOEFL ITP 546 at HYU
+      level: Intermediate
 
 interest:
   show: false
