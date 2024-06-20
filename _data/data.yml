@@ -111,7 +111,7 @@ project:
   items:
     - name: Depression detection by ERC
       date: 2024 1st semester
-      description: \
+      description: |
         Project at Artificial Intelligence class
 
   items:
