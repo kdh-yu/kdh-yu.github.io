@@ -276,13 +276,16 @@ language:
   show: true
   order: 11
   title: Languages
-  description: |
+  description: | 
+    [TOEFL ITP 546/677 at HYU]
 
   items:
     - idiom: Korean
       level: Native
     - idiom: English
-      level: Intermediate [TOEFL ITP 546/677 at HYU]
+      level: Advanced-Mid
+    - idiom: Japanese
+      level: Intermediate-Low
 
 interest:
   show: false
