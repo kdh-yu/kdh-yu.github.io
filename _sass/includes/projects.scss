@@ -1,0 +1,17 @@
+.projects {
+    .title {
+        @include header;
+    }
+    .project {
+        margin-bottom: 20px;
+        .project-title {
+            @include sub-header;
+        }
+        .authors {
+            @include body-text; 
+        }
+        .details {
+            @include body-text;
+        }
+    }
+}

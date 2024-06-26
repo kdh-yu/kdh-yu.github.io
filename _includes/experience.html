@@ -1,61 +1,24 @@
-{%- assign experience = data.experience %}
-{%- if experience and experience.show %}
-<section class="experience" style="order: {{ experience.order | default: 1 }}">
-  <div class="section-title">
-    <i class="section-icon fa-solid fa-briefcase"></i>
-    <h2>{{ experience.title }}</h2>
-  </div>
-
-  <div class="section-content">
-    {%- if experience.description.size > 0 %}
-    <div class="description markdown">
-      {{ experience.description | markdownify }}
-    </div>
-    {%- endif %}
-
-    {%- if experience.items %}
-    <div class="items">
-      {%- for item in experience.items %}
-      <div class="item">
-
-        {%- if item.company %}
-        <div class="row">
-          <div class="company">
-            {%- if item.link %}
-            <a href="{{ item.link }}">{{ item.company }}</a>
-            {%- else %}
-            <span>{{ item.company }}</span>
-            {%- endif %}
-            {%- if item.tags %}
-            <small>[{{ item.tags }}]</small>
-            {%- endif %}
-          </div>
-          <div class="date">
-            <span>{{ item.date }}</span>
-          </div>
+{% assign experience = site.data.data.experience %}
+{% if experience %}
+<section class="experiance">
+    <h2 class="title">Experience</h2>
+    {% for exp in experience %}
+        <div class="experience-item">
+            <div class="role">
+                {{exp.role}}
+            </div>
+            <div class="company">
+                {{exp.company}} 
+                <span class="time">{{exp.time}}</span>
+            </div> 
+            <div class="details">{{exp.details}}</div>
+            {% if exp.technologies_used %}
+            <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
+            {% else %}
+            <br>
+            {% endif %}
         </div>
-
-        <div class="row">
-          <div class="role">
-            <span>{{ item.role }}</span>
-          </div>
-          <div class="location">
-            <i class="fa-solid fa-location-dot"></i>
-            <span>{{ item.location }}</span>
-          </div>
-        </div>
-
-        {%- if item.description.size > 0 %}
-        <div class="description markdown">
-          {{ item.description | markdownify }}
-        </div>
-        {%- endif %}
-        {%- endif %}
-
-      </div>
-      {%- endfor %}
-    </div>
-    {%- endif %}
-  </div>
+       
+    {% endfor %}
 </section>
-{%- endif %}
+{% endif %}

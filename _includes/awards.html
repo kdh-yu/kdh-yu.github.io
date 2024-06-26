@@ -1,0 +1,18 @@
+{% assign awards = site.data.data.awards %}
+{% if awards %}
+<section class="awards">
+    <h2 class="title">Awards</h2>
+    {% for award in awards %}
+        <div class="award-item">
+            <div class="award-title">
+                {{award.title}}
+            </div>
+            <div class="organization">
+                {{award.organization}}
+                <span class="time">{{award.time}}</span>
+            </div>
+            <div class="prize">{{award.prize}}</div>    
+        </div>
+    {% endfor %}
+</section>
+{% endif %}
