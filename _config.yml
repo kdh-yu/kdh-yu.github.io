@@ -1,21 +1,23 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Kim Dohoon
+description: as a Data Scientist
+site_title: Kim Dohoon
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+github_username: kdh-yu
+#blog_url: https://www.nagekar.com
+#email: abhishek@nagekar.com
+#keybase_username: abhn
+#twitter_username: abhn_
+reddit_username: kdh-yu
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: https://avatars.githubusercontent.com/u/51817995?v=4
 
 # Google Analytics ID
 google_analytics: 
+
+watch: false
