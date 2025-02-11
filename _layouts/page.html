@@ -9,6 +9,12 @@ layout: compress
 
 <body data-theme="{{ site.mode }}" class="notransition">
 
+  <style>
+    html, body {
+      overflow: hidden;
+    }
+  </style>
+
   <script>
     const body = document.body;
     const data = body.getAttribute("data-theme");
@@ -29,6 +35,7 @@ layout: compress
   </script>
 
   {% include navbar.html %}
+  {% include particle.html %}
   <div class="wrapper">
     <header class="header">
       <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}.</h1>

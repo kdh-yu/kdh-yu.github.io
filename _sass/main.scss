@@ -12,27 +12,29 @@ $normal-weight: 400;
 $bold-weight: 700;
 // $black-weight: 900; // uncomment if necessary
 
-//Light Colors
-$text-base-color: #434648;
-$text-link-blue: #003fff;
-$text-link-blue-active: #0036c7;
+// Light Colors
+$text-base-color: #2C2F33;
+$text-link-blue: #0056D2;
+$text-link-blue-active: #0044AA;
 
-$black: #0d122b;
-$light: #ececec;
-$smoke: #d2c7c7;
-$gray: #6b7886;
-$white: #fff;
+$black: #121826;
+$light: #F8F9FA;
+$smoke: #D6D3D1;
+$gray: #868E96;
+$white: #FFFFFF;
 
 // Dark Colors
-$dark-text-base-color: #c7bebe;
-$dark-text-link-blue: #ff5277;
-$dark-text-link-blue-active: #ff2957;
+$dark-text-base-color: #CACACA;
+$dark-text-link-blue: #5AC8FA;
+$dark-text-link-blue-active: #4DB8E7; 
 
-$dark-black: #131418;
-$dark-white: #eaeaea;
-$dark-light: #1b1d25;
-$dark-smoke: #4a4d56;
-$dark-gray: #767f87;
+
+$dark-black: #1B1F23;  
+$dark-white: #F5F5F5;
+$dark-light: #2C313A;
+$dark-smoke: #52616B; 
+$dark-gray: #D3D3D3;
+
 
 // Width of the content area
 $wide-size: 890px;

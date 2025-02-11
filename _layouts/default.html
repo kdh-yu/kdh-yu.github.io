@@ -6,7 +6,11 @@ layout: compress
 {% include header.html %}
 
 <body data-theme="{{ site.mode }}" class="notransition">
-
+  <style>
+    html, body {
+      overflow: hidden; /* 스크롤을 숨기기 위해 추가 */
+    }
+  </style>
   <script>
     const body = document.body;
     const data = body.getAttribute("data-theme");
@@ -27,6 +31,7 @@ layout: compress
   </script>
 
   {% include navbar.html %}
+  {% include particle.html %}
   <div class="wrapper">
     {% include author.html %}
     <main aria-label="Content">
@@ -34,5 +39,6 @@ layout: compress
     </main>
     {% include footer.html %}
   </div>
+  
 </body>
 </html>
