@@ -88,3 +88,12 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+
+# News settings
+news:
+#  - title: "첫 번째 게시글"
+#    date: "2024-02"
+#  - title: "두 번째 게시글"
+#    date: "2023-11"
+#  - title: "세 번째 게시글"
+#    date: "2023-05"
