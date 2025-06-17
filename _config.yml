@@ -1,7 +1,7 @@
 # Site settings
 title: Kim Dohoon # site title
 description: >- # site description
-  Kim Dohoon, as a data scientist. Meet him <a href="https://github.com/kdh-yu" target="_blank" rel="noopener">@github</a>.
+  Kim Dohoon, as a data scientist. <a href="https://github.com/kdh-yu" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: Asia/Seoul # set your timezone
 image: #assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
